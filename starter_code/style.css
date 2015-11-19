@@ -1,3 +1,8 @@
+body {
+    background-color:silver;
+}
+
+
 .container { 
     width: 800px;
     width: 800px;
@@ -5,10 +10,16 @@
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
+    color: red;
+    font: times;
 }
 .token { 
     width: 32%; 
-    border: 1px solid blue; 
+    border: 1px solid ; 
+    
+    -moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
     margin-left: 1px;
     float:left;
     text-align: center;
@@ -17,4 +28,5 @@
 }
 #message {
     text-align: center;
+    color: green;
 }
